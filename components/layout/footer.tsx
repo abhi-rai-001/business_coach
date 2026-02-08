@@ -71,8 +71,9 @@ export function Footer() {
                         <a href="#" className="hover:text-primary transition-colors">Twitter</a>
                         <a href="#" className="hover:text-primary transition-colors">Instagram</a>
                     </div>
-                    <div className="text-xs text-white/30">
-                        © {new Date().getFullYear()} Alexander V. All rights reserved.
+                    <div className="text-xs text-white/30 flex flex-col items-center gap-2">
+                        <span>© {new Date().getFullYear()} Alexander V. All rights reserved.</span>
+                        <span className="text-[10px] uppercase tracking-[0.2em] text-white/20 font-medium">Made by Skyrn Studio</span>
                     </div>
                 </motion.div>
             </div>
