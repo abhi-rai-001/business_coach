@@ -20,6 +20,9 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'Alexander V. | Business Strategist for Founders',
   description: 'Operational clarity and scalable leadership for the modern founder.',
+  icons: {
+    icon: '/icon.png',
+  },
 }
 
 export default function RootLayout({
