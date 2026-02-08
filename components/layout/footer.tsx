@@ -72,7 +72,7 @@ export function Footer() {
                         <a href="#" className="hover:text-primary transition-colors">Instagram</a>
                     </div>
                     <div className="text-xs text-white/30">
-                        © 2024 Alexander V. All rights reserved.
+                        © {new Date().getFullYear()} Alexander V. All rights reserved.
                     </div>
                 </motion.div>
             </div>
